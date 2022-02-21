@@ -2,7 +2,6 @@ import { createClient,  } from 'redis';
 export class Redis {
     private client : any;
     constructor(){
-        this.initialize();
     }
     async initialize() {
         try {
